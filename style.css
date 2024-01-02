@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Poppins", sans-serif;
+}
+.navbar{
+ /* border: 2px solid red;*/
+  height: 60px;
+  background-color:#101111 ;
+  color: white;
+  display:flex ;
+  justify-content: space-evenly;
+}
+.nav-logo{
+  height: 50px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+}
+.logo img{
+  height: 50px;
+  width: 100%;
+}
+.border{
+  border: 1px solid transparent; 
+  height: 100%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.add-first{
+    color: #c9c9c9;
+    font-size: 13.6px;
+    margin-left: 3px;
+}
+.add-second {
+    font-size: 16px;
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly; 
+    width: 550px;
+    height: 40px;
+    background-color:pink;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.search-select{
+    background-color: #D4D4D4;
+    width: 170px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    outline: none;
+}
+.search-input{
+  width: 100%;    
+  font-size: 15px;
+  border: none;
+  outline: none;
+  text-indent: 8px; 
+}
+.search-icon{
+    width: 80px;
+    background-color:#F3A847;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-search:hover {
+    border: 1px solid #F3A847;
+}
+span {
+    font-size: 11px;
+    font-weight: 700;
+}
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 13.6px;
+    font-size: 13.6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.panel{
+  background-color: #222f3d;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+.panel-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-indent: 6px;
+   font-weight: bold;
+    
+}
+.panel-ops {
+    width: 70%;
+}
+.panel-ops p {
+    display: inline-flex;
+    height: 40px;
+    padding: 0 3px;
+    margin-left: 15px;
+    font-size: 14px;
+    
+}
+
+  .panel-deals img{
+    width: 400px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
